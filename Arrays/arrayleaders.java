@@ -1,7 +1,5 @@
 
 import java.util.*;
-
-
 class Solution {
     static ArrayList<Integer> leaders(int arr[]) {
         ArrayList<Integer> list = new ArrayList<>();
@@ -10,7 +8,7 @@ class Solution {
         list.add(max);
         i--;
         while(i>=0){
-            if(arr[i]>m=ax){
+            if(arr[i]>max){
                 list.add(0,arr[i]);
                 max = arr[i];
                 
